@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(./assets/svg1.png);
+    align-items: center;
+    flex-direction: column;
+}
+
+
+input {
+    width: 180px;
+    height: 40px;
+    border: none;
+    border-radius: 54px;
+    font-size: 20px;
+    text-align: center;
+}
+
+input::placeholder {
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 54px;
+    background-color: rgba(81, 28, 41, 0.8);
+    color: white;
+    cursor: pointer;
+    
+}
+
+h2 {
+    padding: 4%;
+    font-size: 26px;
+    color: white;
+    max-width: 300px;
+    text-align: center;
+    text-shadow: 2px 1.5px 3px black;
+}
+
+h3, p {
+    padding: 4%;
+    font-size: 18px ;
+    color: white;
+    text-shadow: 2px 1.5px 3px black;
+    max-width: 100%;
+    text-align: center;
+}
+
+footer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    border-radius: 54px;
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow:  17px 17px 18px rgba(0, 0, 0, 0.), -17px -17px 18px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+    font-style: italic;
+    text-align: center;
+    color: rgba(81, 28, 41, 0.8);
+    text-decoration: none;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    border-radius: 54px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (min-width: 700px){
+
+    #card-container {
+        display: flex;
+        width: 560px;
+        max-height: 460px;
+        text-align: center;
+        align-items: center;
+    }
+    img {
+        width: 270px;
+        height: 220px;
+    }
+
+    input {
+        width: 300px;
+    }
+
+    input::placeholder {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 28px;
+        padding: 1%;
+    }
+
+    h3 {
+        font-style: italic;
+        font-size: 39px;
+    }
+
+    .resultado {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button {
+        margin-left: 10px;
+        width: 120px;
+        font-size: larger;
+        font-style: italic;
+    }
+    
+}

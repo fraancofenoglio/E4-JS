@@ -1,0 +1,10 @@
+export const LSPizzas = JSON.parse(localStorage.getItem("Pizzas"));
+export const form = document.querySelector("#formulario");
+export const input = document.querySelector("#input");
+export const button = document.querySelector("#formulario > button");
+export const cardContainer = document.getElementById('card-container');
+export const card = document.createElement('div');
+export const title = document.createElement('h2');
+export const img = document.createElement('img');
+export const paragraph = document.createElement('p');
+export const price = document.createElement('h3');
